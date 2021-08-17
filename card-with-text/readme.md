@@ -1,6 +1,6 @@
 # Description
 * 基本的卡片排版, 以及滑鼠移動時浮現的文字
-![Preview](/preview/preview.png)
+* ![Preview](https://raw.githubusercontent.com/JenHsuan/web-layout-practice/master/card-with-text/preview/preview.png)
 
 # Material
 * [金魚都能懂的網頁切版 : 互動圖文卡片 NO002 | 切版教學 | HTML教學 | 網頁教學 | 網頁切版](https://www.youtube.com/watch?v=IocyLERRdko)
