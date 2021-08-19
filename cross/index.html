@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;700&display=swap");
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+        body {
+            padding: 100px 0;
+            background: linear-gradient(20deg, #3d5493, #1aa2a0) fixed center center/ 100% 100%;
+        }
+        .wrap {
+            width: 1200px;
+            margin: auto;
+        }
+        .item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 70px;
+        }
+        .item .pic {
+            width: 55%;
+            flex-shrink: 0;
+        }
+        .item .pic img{
+            width: 100%;
+            vertical-align: middle;
+        }
+        .item .txt {
+            width: 55%;
+            flex-shrink: 0;
+            padding: 50px 30px;
+            padding: 50px 30px;
+            box-sizing: border-box;
+            position: relative;
+            z-index: 1;
+        }
+        .item > :first-child {
+            margin-right: -10%;
+        }
+        .item:nth-child(1) .txt{
+            background-color: rgb(212, 170, 182, 0.7);
+        }
+        .item:nth-child(2) .txt{
+            background-color: rgb(42, 253, 208, 0.7);
+        }
+        .item:nth-child(3) .txt{
+            background-color: rgb(254, 201, 121, 0.7);
+        }
+        .item:nth-child(4) .txt{
+            background-color: rgb(149, 219, 214, 0.7);
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <!-- .item 1-->
+        <div class="item">
+            <div class="pic">
+                <img src='http://picsum.photos/600/350?random=8' alt=''>
+            </div>
+            <div class="txt">
+                <h2>Read an Article a Day</h2>
+                <p>There are many information around us today. To improve ourselves, we just need to move a further move every day. Daily learning provides articles, challenges, or videos to people who are also self-learner for programming
+                </p>
+            </div>
+        </div>
+        <!-- .item 2-->
+        <div class="item">
+            <div class="txt">
+                <h2>1日記事を読む</h2>
+                <p>今日、私たちの周りにはたくさんの情報があります。自分自身を向上させるために、毎日少しずつ進歩が必要です。毎日の学習は、プログラミングの自己学習者でもある人々に記事、課題、またはビデオを提供します
+                </p>
+            </div>
+            <div class="pic">
+                <img src='http://picsum.photos/600/350?random=830' alt=''>
+            </div>
+        </div>
+        <!-- .item 3-->
+        <div class="item">
+            <div class="pic">
+                <img src='http://picsum.photos/600/350?random=801' alt=''>
+            </div>
+            <div class="txt">
+                <h2>每天閱讀一篇文章
+                </h2>
+                <p>今天我們周圍有很多資訊。為了進步，我們需要每天前進一小步。Daily Learning提供文章，挑戰或影音給同樣自學程式語言的人
+                </p>
+            </div>
+        </div>
+        <!-- .item 4-->
+        <div class="item">
+            <div class="txt">
+                <h2>อ่านบทความต่อวัน
+                </h2>
+                <p>มีข้อมูลมากมายรอบตัวเราในปัจจุบัน ในการปรับปรุงตัวเราเองเราก็ต้องก้าวไปอีกขั้นทุกวัน การเรียนรู้รายวันให้บทความความท้าทายหรือวิดีโอแก่ผู้ที่เรียนรู้ด้วยตนเองสำหรับการเขียนโปรแกรม
+                </p>
+            </div>
+            <div class="pic">
+                <img src='http://picsum.photos/600/350?random=180' alt=''>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
