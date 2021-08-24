@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;700&display=swap" rel="stylesheet">
+    <style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-family: 'Noto Sans TC', sans-serif;
+    }
+
+    body {
+        background-color: #000;
+    }
+    .main-footer {
+        padding: 150px 0 0;
+        background: linear-gradient(-20deg, #3f5494, #08c7a5);
+    }
+    .main-footer .container{
+        display: flex;
+        width: 1200px;
+        margin: auto;
+    }
+
+    .footer-item {
+        width: 0;
+        flex-grow: 1;
+        margin: 0 20px;
+    }
+
+    .footer-item h4 {
+        font-size: 24px;
+        color: #fff;
+        border-bottom: 1px dotted #fff;
+        margin-bottom: 0.5em;
+        padding-bottom: 0.5em;
+    }
+
+    .footer-item nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-item nav a {
+        color: #fff;
+        line-height: 1.4;
+        text-decoration: none;
+        padding: 5px 0;
+    }
+
+    .footer-item nav a:hover {
+        color: #fa0;
+    }
+    .copyright {
+        text-align: center;
+        margin: 150px 0 0;
+        padding: 10px 0px;
+        background-color: #3e5293;
+        color: #70f6df;
+        width: 100%;
+    }
+
+    .footer-subscribe {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-subscribe form{
+        display: flex;
+        width: 100%;
+        margin: auto 0px;
+    }
+
+    .footer-subscribe input[type="text"],
+    .footer-subscribe input[type="submit"] {
+        border: none;
+        padding: 5px 10px;
+    }
+
+
+    .footer-subscribe input[type="text"] {
+        width: 0;
+        flex-grow: 1;
+    }
+
+    .footer-subscribe input[type="submit"] {
+        color: #70f6df;
+        background-color: #3e5293;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="main-footer">
+        <div class="container">
+            <div class="footer-item">
+                <h4>About</h4>
+                <nav>
+                    <a href=""><i class='fa fa-angle-right'></i>Read an Article a Day</a>
+                    <a href=""><i class='fa fa-angle-right'></i> About the author</a>
+                    <a href=""><i class='fa fa-angle-right'></i> Get in touch</a>
+                </nav>
+            </div>
+            <div class="footer-item">
+                <h4>Aricles</h4>
+                <nav>
+                    <a href=""><i class='fa fa-angle-right'></i>Programming</a>
+                    <a href=""><i class='fa fa-angle-right'></i>1000DaysOfCode</a>
+                    <a href=""><i class='fa fa-angle-right'></i>Portfolios</a>
+                </nav>
+            </div>
+            <div class="footer-item">
+                <h4>Media</h4>
+                <nav>
+                    <a href=""><i class='fa fa-angle-right'></i> Facebook</a>
+                    <a href=""><i class='fa fa-angle-right'></i> Youtube</a>
+                    <a href=""><i class='fa fa-angle-right'></i> Linkedin</a>
+                    <a href=""><i class='fa fa-angle-right'></i> Github</a>
+                </nav>
+            </div>
+            <div class="footer-item footer-subscribe">
+                <h4>訂閱</h4>
+                <form action="">
+                    <input type="text">
+                    <input type="submit" value="訂閱">
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright &copy; 2021 Jen-Hsuan Hsieh
+        </div>
+    </div>
+</body>
+</html>
