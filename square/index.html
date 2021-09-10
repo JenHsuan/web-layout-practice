@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+        body  {
+            background-color: #000;
+        }
+        .wrap {
+            width: 100%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .item{
+            float: left;
+            position: relative;
+        }
+        .item img {
+            width: 100%;
+            vertical-align: middle;
+        }
+        .item:first-child {
+            width: 50%;
+        }
+        .item:first-child ~ .item {
+            width: 25%;
+        }
+        .item .txt {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            padding: 15px;
+            box-sizing: border-box;
+            text-align: center;
+            color: #fff;
+            background-color: rgba(0,0,0,.6);
+            display: flex;
+            /* opacity: 0; */
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: .5s;
+            transform: scale(0);
+        }
+        .item:hover .txt{
+            opacity: 1;
+            transform: scale(1);
+        }
+        .item h3{
+            margin-bottom: 0.4em;
+            line-height: 1.7;
+        }
+        .item p {
+            font-weight: 100;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="item">
+            <img src='http://picsum.photos/500/500?random=80' alt=''>
+                <div class="txt">
+                    <h3>Read an Article a Day</h3>
+                    <p>There are many information around us today. To improve ourselves, we just need to move a further move every day. Daily learning provides articles, challenges, or videos to people who are also self-learner for programming</p>
+                </div>
+        </div>
+        <div class="item">
+            <img src='http://picsum.photos/500/500?random=81' alt=''>
+                <div class="txt">
+                    <h3>1日記事を読む
+                    </h3>
+                    <p>今日、私たちの周りにはたくさんの情報があります。自分自身を向上させるために、毎日少しずつ進歩が必要です。毎日の学習は、プログラミングの自己学習者でもある人々に記事、課題、またはビデオを提供します
+
+                    </p>
+                </div>
+        </div>
+        <div class="item">
+            <img src='http://picsum.photos/500/500?random=10' alt=''>
+                <div class="txt">
+                    <h3>每天閱讀一篇文章
+                    </h3>
+                    <p>今天我們周圍有很多資訊。為了進步，我們需要每天前進一小步。Daily Learning提供文章，挑戰或影音給同樣自學程式語言的人
+
+                    </p>
+                </div>
+        </div>
+        <div class="item">
+            <img src='http://picsum.photos/500/500?random=84' alt=''>
+                <div class="txt">
+                    <h3>每天阅读一篇文章
+                    </h3>
+                    <p>今天我们周围有很多信息。为了提高自己，我们需要每天采取进一步行动。Daily Learning向同样自学编程的人提供文章，挑战或视频
+
+                    </p>
+                </div>
+        </div>
+        <div class="item">
+            <img src='http://picsum.photos/500/500?random=90' alt=''>
+                <div class="txt">
+                    <h3>อ่านบทความต่อวัน
+                    </h3>
+                    <p>มีข้อมูลมากมายรอบตัวเราในปัจจุบัน ในการปรับปรุงตัวเราเองเราก็ต้องก้าวไปอีกขั้นทุกวัน การเรียนรู้รายวันให้บทความความท้าทายหรือวิดีโอแก่ผู้ที่เรียนรู้ด้วยตนเองสำหรับการเขียนโปรแกรม
+
+                    </p>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

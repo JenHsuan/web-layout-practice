@@ -8,7 +8,24 @@
 # References
 ### flex-grow
 * [分配剩餘空間的比例](https://ithelp.ithome.com.tw/articles/10208741)
+* 平均分配空間: 先將width設為0, 再將flex-grow設為1
 
+```
+.footer-item {
+    width: 0;
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+```
+* 佔滿空間
+```
+.footer-subscribe input[type="text"] {
+    width: 0;
+    flex-grow: 1;
+}
+
+```
 ### Vertical centering
 ```
 

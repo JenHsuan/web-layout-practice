@@ -13,3 +13,20 @@
 
 ### box-sizing: border-box
 * [重新認識 CSS - box-sizing](https://titangene.github.io/article/css-box-sizing.html)
+
+### 頭選取器: 選取第一個元素
+* 可用於選取交錯元素的時候
+```
+.item > :first-child {
+    margin-right: -10%;
+}
+
+```
+
+### n選取器: 選取第n個元素
+* 可用於操作特定單一元素
+```
+.item:nth-child(1) .txt{
+    background-color: rgb(212, 170, 182, 0.7);
+}
+```
