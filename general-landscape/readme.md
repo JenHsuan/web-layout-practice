@@ -8,5 +8,7 @@
 # References
 ### align-self
 * [搭配align-items:center一起使用](https://w3c.hexschool.com/flexbox/c3847835)
+* flex-end: 向右對齊
+
 ### object-fit: cover
 * [讓圖片剛好放到容器中](https://tools.wingzero.tw/article/sn/61)

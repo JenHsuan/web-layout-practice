@@ -6,6 +6,17 @@
 * [金魚都能懂的網頁切版 : 圖文滿版區塊 NO001 | 切版教學 | HTML教學 | 網頁教學 | 網頁切版](https://www.youtube.com/watch?v=rwTMBmnIHcY&t=604s)
 
 # References
+
+### 滿版面
+```
+
+.banner {
+    width: 100%;
+    height: 100vh;
+}
+
+```
+
 ### Vertical centering
 ```
 
