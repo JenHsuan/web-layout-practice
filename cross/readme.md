@@ -16,7 +16,6 @@
 * 當width + padding會超出範圍時
 
 ### 頭選取器: 選取第一個元素
-* 可用於選取交錯元素的時候
 ```
 .item > :first-child {
     margin-right: -10%;
