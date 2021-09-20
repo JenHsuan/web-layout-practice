@@ -8,4 +8,11 @@
 # References
 * 絕對定位 - 垂直居中
 * 單行文字 - 垂直居中
-* label & checkbox
+* label for input
+```
+    <input type="checkbox" name="" id="side-menu-switch">
+    <label for="side-menu-switch">
+        <i class='fa fa-angle-right'></i>
+    </label>
+
+```
