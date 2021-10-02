@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;700&display=swap" rel="stylesheet">
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+        .banner {
+            height: 700px;
+            background: url('https://raw.githubusercontent.com/JenHsuan/ALayman/master/views/images/iPad%20Pro%20Portrait%20Copy.png') center top / cover;
+        }
+        .sec .container {
+            width: 1200px;
+            margin: auto;
+            display: flex;
+        }
+        .sec .item {
+            width: 570px;
+            margin: 0 15px;
+        }
+        .sec .item p {
+            line-height: 1.7;
+            margin-bottom: 1.6em;
+            position: relative;
+            z-index:2;
+        }
+        .sec .item h2 {
+            margin-bottom: 1.5em;
+            margin-top: 1.6em;
+            position: relative;
+            z-index:2;
+        }
+        .sec {
+            position: relative;
+        }
+        .sec::after {
+            position: absolute;
+            content: '';
+            display: block;
+            width: 200px;
+            height: 200px;
+            background-color: #fff;
+            box-shadow: 150px 0px 0px 30px #fff,
+                        250px 0px 0px -10px #fff,
+                        370px 0px 0px 20px #fff,
+                        500px 0px 0px -5px #fff,
+                        550px 0px 0px 5px #fff,
+                        650px 0px 0px -10px #fff,
+
+                        -150px 0px 0px 30px #fff,
+                        -250px 0px 0px -10px #fff,
+                        -370px 0px 0px 20px #fff,
+                        -500px 0px 0px -5px #fff,
+                        -550px 0px 0px 5px #fff,
+                        -650px 0px 0px -10px #fff,
+                        -750px 0px 0px 10px #fff,
+
+                        150px -100px 0px 30px rgba(0,0,0,0.5),
+                        250px -50px 0px -10px rgba(0,0,0,0.5),
+                        370px -10px 0px 20px rgba(0,0,0,0.5),
+                        500px -100px 10px -5px rgba(0,0,0,0.5),
+                        550px -100px 20px 5px rgba(0,0,0,0.5),
+                        650px -100px 10px -10px rgba(0,0,0,0.5),
+
+                        -150px -100px 10px 30px rgba(0,0,0,0.5),
+                        -250px -100px 20px -10px rgba(0,0,0,0.5),
+                        -370px -100px 10px 20px rgba(0,0,0,0.5),
+                        -500px -100px 10px -5px rgba(0,0,0,0.5),
+                        -550px -100px 20px 5px rgba(0,0,0,0.5),
+                        -650px -100px 20px -10px rgba(0,0,0,0.5),
+                        -750px -100px 10px 10px rgba(0,0,0,0.5);
+            top: 0;
+            left: 50%;
+            transform: translateY(-30%);
+            border-radius: 50%;
+            z-index:1;
+
+        }
+    </style>
+</head>
+<body>
+<div class="banner"></div>
+<div class="sec">
+    <div class="container">
+        <div class="item">
+            <h2>1日記事を読む</h2>
+            <p>今日、私たちの周りにはたくさんの情報があります。自分自身を向上させるために、毎日少しずつ進歩が必要です。</p>
+            <p>毎日の学習は、プログラミングの自己学習者でもある人々に記事、課題、またはビデオを提供します</p>
+        </div>
+        <div class="item">
+            <h2>著者について</h2>
+            <p>Jen-Hsuan Hsieh (Sean Hsieh) は自己学習者、ライター、開発者でもあります。彼は、フロントエンドJavaScriptフレームワークの経験を持つシニアWeb開発者です。</p>
+            <p>彼はReact.js、Knockout.js、NodeJSやASP.NETMVCなどのサーバー側言語に精通しています。</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,7 +1,11 @@
 # Web Layout Practice
 ### Baics
 * CSS reset
-### Contents
-* introduction: [code](./introduction/index.html) [readme](./introduction/readme.md)
-* sideMenu: [code](./sideMenu/index.html) [readme](./sideMenu/readme.md)
-* square: [code](./square/index.html) [readme](./square/readme.md)
+
+### Summaries
+
+
+### References
+* [Flexbox 排版跟 float 差在哪裡](https://w3c.hexschool.com/flexbox/a5e0a54c)
+* [學習 CSS 版面配置:clear](https://zh-tw.learnlayout.com/clear.html)
+* [flexbox用space-aound居中](space-between vs space-around vs space-evenly)

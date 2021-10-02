@@ -6,4 +6,3 @@
 * [金魚都能懂的網頁切版 : 登入表單 NO017 | 切版教學 | HTML教學 | 網頁教學 | 網頁切版](https://www.youtube.com/watch?v=G5MA36MboNw)
 
 # References
-* button vs a

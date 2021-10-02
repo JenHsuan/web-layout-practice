@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;700&display=swap" rel="stylesheet">
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+        html,body {
+            height: 100%;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            background-image: linear-gradient(-45deg, #fffaf0, #f8c3c1);
+        }
+        .wrap {
+            display: flex;
+            width: 1200px;
+            margin: 100px auto;
+            padding-top: 75px;
+        }
+        .item {
+            width: 370px;
+            margin: 0 15px;
+            text-align: center;
+            border: 10px solid #f9cec2;
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 10px 20px 50px #f7b6a7;
+        }
+        .item h3{
+            color: #f5afac;
+        }
+        .item p{
+            color: #ccc;
+        }
+        .item .icon {
+            width: 150px;
+            height: 150px;
+            background-color: #fff;
+            margin: -75px auto 0;
+            font-size: 65px;
+            line-height: 150px;
+            border-radius: 50%;
+            color: #f5afac;
+            position: relative;
+        }
+        .item .icon:before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-top: 10px solid #f9cec2;
+            border-right: 10px solid #f9cec2;
+            border-left: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            left: -10px;
+            top: -10px;
+            border-radius: 50%;
+            transform: rotate(-45deg);
+        }
+        .item .txt {
+            padding: 20px;
+        }
+        .item:hover .fa {
+            animation: ss .2s linear infinite alternate;
+        }
+        @keyframes ss {
+            0%{ transform: rotate(-10deg);}
+            100%{ transform: rotate(10deg);}
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="item">
+            <div class="icon">
+            <i class='fa fa-gavel'></i>
+            </div>
+            <div class="txt"></div>
+            <h3>1日記事を読む</h3>
+            <p>今日、私たちの周りにはたくさんの情報があります。自分自身を向上させるために、毎日少しずつ進歩が必要です。毎日の学習は、プログラミングの自己学習者でもある人々に記事、課題、またはビデオを提供します</p>
+        </div>
+        <div class="item">
+            <div class="icon">
+            <i class='fa fa-thumbs-up'></i>
+            </div>
+            <div class="txt"></div>
+            <h3>著者について</h3>
+            <p>Jen-Hsuan Hsieh (Sean Hsieh) は自己学習者、ライター、開発者でもあります。彼は、フロントエンドJavaScriptフレームワークの経験を持つシニアWeb開発者です。彼はReact.js、Knockout.js、NodeJSやASP.NETMVCなどのサーバー側言語に精通しています。</p>
+        </div>
+        <div class="item">
+            <div class="icon">
+            <i class='fa fa-bell'></i>
+            </div>
+            <div class="txt"></div>
+            <h3>連絡する</h3>
+            <p>一般的な質問についてはofalpha@gmail.comで連絡お願い致します</p>
+        </div>
+    </div>
+</body>
+</html>

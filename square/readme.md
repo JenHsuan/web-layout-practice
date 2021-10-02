@@ -16,3 +16,7 @@
             width: 25%;
         }
 ```
+
+* [Flexbox 排版跟 float 差在哪裡](https://w3c.hexschool.com/flexbox/a5e0a54c)
+* [學習 CSS 版面配置:clear](https://zh-tw.learnlayout.com/clear.html)
+
