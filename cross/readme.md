@@ -7,8 +7,8 @@
 
 # References
 ### flex-shrink
-* 0為伸縮度最大 (預設值)
-* 1沒有伸縮度
+* 0: 不要壓縮
+* 1: 大家被壓縮的比例相同 (預設值)
 * [Day24 Flex 空間分配 flex-grow / flex-shrink / flex-basis](https://ithelp.ithome.com.tw/articles/10208741)
 
 ### box-sizing: border-box

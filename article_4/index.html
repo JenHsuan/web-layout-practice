@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>A Way to Build the Next.js, Redux, and Styled-Components Website Efficiently</title>
+
+    <link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;700&display=swap" rel="stylesheet">
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+        .wrap {
+            margin: 100px;
+        }
+        .container {
+            position: relative;
+            width: 1200px;
+            margin: auto;
+        }
+        .container h1 {
+            width: 400px;
+            box-sizing: border-box;
+            padding: 15px;
+            background-color: #eee;
+            position: absolute;
+            left:0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container .txt {
+            column-count: 2;
+            column-gap: 460px;
+        }
+        .container p:first-child::first-letter{
+            font-size: 40px;
+            float: left;
+            padding-right: 6px;
+        }
+        .container p {
+            line-height: 1.6;
+            margin-bottom: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="container">
+            <h1>create-nrs-web </h1>
+
+            <div class="txt">
+                <p>There are several things we need to set for building a new Next.js project. There is a new way that we only have to do it once</p>
+                <p>For example, we have to re-create files and settings for Redux, Redux middleware, Styled-components again and again if we need them. Sometimes, we may also need extra things like setting Jest, Enor using TypeScript.
+                </p>
+                <p>To solve my problems, I create and publish an NPX command called create-nrs-web. In this article, we will introduce how to use create-nrs-web to build a website efficiently. There are a few topics.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
