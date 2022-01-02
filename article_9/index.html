@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Way to Build the Next.js, Redux, and Styled-Components Website Efficiently</title>
+
+    <link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;700&display=swap" rel="stylesheet">
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+        .wrap {
+            margin: 100px 0;
+        }
+        .container {
+            width: 1200px;
+            margin: auto;
+            display: flex;
+            justify-content: flex-end;
+            position: relative;
+            box-shadow:  0 0 20px #ccc;
+            overflow: hidden;
+        }
+        .container h1 {
+            width: 100%;
+            flex-shrink: 0;
+            box-sizing: border-box;
+            font-size: 100px;
+            padding-left: 15px;
+            color: #fff;
+            position: absolute;
+            left: 0;
+            top: -0px;
+            line-height: .8em;
+            opacity: .5;
+            text-shadow: 6px 6px 0px #ccc;
+        }
+        .container .txt {
+            width: 800px;
+            flex-shrink: 0;
+            box-sizing: border-box;
+            column-count: 2;
+            column-gap: 30px;
+            padding: 15px;
+            position: relative;
+            z-index: 1;
+        }
+        .container .txt p {
+            margin-bottom: 1em;
+        }
+        .container .txt p:first-child:first-letter {
+            font-size: 60px;
+            float: left;
+            padding-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="container">
+            <h1>create-nrs-web </h1>
+            <div class="txt">
+                <p>There are several things we need to set for building a new Next.js project. There is a new way that we only have to do it once
+                For example, we have to re-create files and settings for Redux, Redux middleware, Styled-components again and again if we need them. Sometimes, we may also need extra things like setting Jest, Enor using TypeScript.
+                </p>
+                <p>To solve my problems, I create and publish an NPX command called create-nrs-web. In this article, we will introduce how to use create-nrs-web to build a website efficiently. There are a few topics.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
